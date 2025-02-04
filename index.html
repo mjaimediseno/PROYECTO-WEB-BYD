@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BYD - El futuro de la movilidad</title>
+    <!-- Aquí va la guía de estilos -->
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<header>
-    <img src="images/BYD_BRAND.png"
+    <header>
+    <img class="BYD-BRAND" src="images/BYD_BRAND.png" style="height: 20px;"
     <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="BYD_S1_PRO.html">S1 PRO</a></li>
-            <li><a href="BYD_SHARK.html">SHARK</a></li>
-            <li><a href="BYD_SEALION7.html">SEALION 7</a></li>
-            <li><a href="BYD_SEAGULL.html">SEAGULL</a></li>
+        <style>
+            ul {
+                color:#696D71;
+                padding: 0px;
+            }
+        </style>
+        <ul id="nav-list">
+            <li class="item"><a href="index.html">Inicio</a></li>
+            <li class="item"><a href="BYD_S1_PRO.html">S1 PRO</a></li>
+            <li class="item"><a href="BYD_SHARK.html">SHARK</a></li>
+            <li class="item"><a href="BYD_SEALION7.html">SEALION 7</a></li>
+            <li class="item"><a href="BYD_SEAGULL.html">SEAGULL</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <section>
-        <h1>Descubre el Futuro de la Movilidad con BYD</h1>
+        <h1 style="color: #4F9EDD; font-size: 2.5rem;">Descubre el Futuro de la Movilidad con BYD</h1>
         <p>BYD, líder en tecnología de vehículos eléctricos, transforma la manera en que nos movemos y cuidamos el planeta.</p>
-        <img src="images/bydsealion7_banner.jpg" alt="Descripción de la imagen">
+        <img src="images/bydsealion7_banner.jpg" style="height: 350px;" alt="Descripción de la imagen">
     </section>
    <section>
         <h2>¿Quiénes Somos?</h2>
@@ -48,25 +59,36 @@
         <a href="https://bydautocr.com" target=_blank">Clic aquí</a>
     </section>
     <section>
+        <h3>Nuestros modelos más vendidos</h3>
+        <div class="tarjeta-carro">
+            <p>BYD SEALION 7</p>
+        </div>
+    </section>
+    <section>
         <h3>Recibí la última información sobre BYD</h3>
         <form>
             <label>Nombre</label>
             <input type="text"/>
             <br/>
+            <br/>
             <label>Correo</label>
             <input type="email"/>
+            <br/>
             <br/>
             <label>Teléfono</label>
             <input type="number"/>
             <br/>
             <br/>
-            <button>
-                Suscribirme
+            <button id="caja-boton">
+                    Suscribirme 
             </button>
         </form>
     </section>
 </main>
-<footer>
-    <p>Jaime Martínez - Proyecto del curso Desarrollo de sitios web de Protolab UCR 2025</p>
+<br/>
+<br/>
+<br/>
+<footer id="footer">
+    <p style="color: white; padding-left: 15px;">Jaime Martínez - Proyecto del curso Desarrollo de sitios web de Protolab UCR 2025</p>
 </footer>
 </html>

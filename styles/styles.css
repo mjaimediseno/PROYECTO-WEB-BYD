@@ -1,0 +1,71 @@
+/* BYD BRAND COLORS / Azul #4F9EDD / Blanco #FFFFFF / Gris #696D71 */
+
+h1 {
+    color:#4F9EDD;
+}
+
+h2 {
+    color:#696D71;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color:#696D71;
+}
+
+#nav-list {
+    color:brown;
+    background-color:rgb(255, 255, 255);
+    text-align:left;
+}
+
+* {
+    font-family: "Inter Tight";
+}
+
+body {
+    margin: 20px
+}
+
+.item {
+    color:orangered
+}
+
+#caja-boton {
+    color: #ffffff;
+    background-color: #4F9EDD;
+    padding: 10px;
+}
+
+#footer {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+ul {
+    color:rgb(82, 82, 82);
+    padding: 0px;
+}
+
+ol {
+    padding: 0px;
+}
+
+.tarjeta-carro {
+    color: #ffffff;
+    background-color: #696D71;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.BYD-BRAND {
+/* Averiguar cómo hacerle fondo a una imagen. */
+}
